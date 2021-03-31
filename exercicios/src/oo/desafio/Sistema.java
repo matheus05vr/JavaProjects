@@ -13,7 +13,7 @@ public class Sistema {
 		compra2.adicionarItem(new Produto("Impressora", 1000), 1);
 		
 		Cliente cliente1 = new Cliente("Maria Julia Moraes");
-		cliente1.adicionarCompra(compra1); //jeito diferente
+		cliente1.adicionarCompra(compra1); //jeito diferente MATHEUS/PP
 		cliente1.compras.add(compra2);
 		
 		System.out.println(cliente1.obterValorTotal());
