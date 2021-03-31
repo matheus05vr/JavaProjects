@@ -17,6 +17,7 @@ public class Sistema {
 		cliente1.compras.add(compra2);
 		
 		System.out.println(cliente1.obterValorTotal());
+	
 		
 	}
 
